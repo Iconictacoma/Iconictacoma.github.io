@@ -20,3 +20,35 @@ img {
     display: block;
     margin: 0.5rem 0;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1rem;
+}
+
+.sidebar {
+    background: #ffffffcc;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 1rem;
+    height: fit-content;
+}
+
+.sidebar a {
+    display: block;
+    color: #1f4e79;
+    text-decoration: none;
+    margin: 0.25rem 0;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background: #ffffffcc;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 1rem;
+}
