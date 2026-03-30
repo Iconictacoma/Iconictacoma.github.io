@@ -28,7 +28,7 @@ img {
 }
 
 .sidebar {
-    background: #ffffffcc;
+    background: #ffffffff;
     border: 1px solid #fa0000;
     border-radius: 8px;
     padding: 1rem;
@@ -47,8 +47,8 @@ img {
 }
 
 .main-content {
-    background: #ffffffcc;
-    border: 1px solid #dcdcdc;
+    background: #ffffffff;
+    border: 1px solid #ffffffff;
     border-radius: 8px;
     padding: 1rem;
 }
